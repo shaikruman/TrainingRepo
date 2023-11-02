@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import Get from './AXIOS/Get';
 import './App.css';
 import Cart from './Cart';
-import NodeApi from './NODE/NodeApi';
+// import NodeApi from './NODE/NodeApi';
 
 
 // import CARD from './CARDS/CARD';
@@ -30,8 +30,13 @@ import './index.css';
 
 function App(props) {
   return (
-<div>
-<Cart></Cart>
+<div >
+<div style={{display: 'flex'}}>
+<Cart mname="Bhajrangi Bhaijaan" mdirector="Kabir Khan" mreport="Good" msrc="Bhaijan.jpeg"></Cart>
+    <Cart mname="Jodha Akbar" mdirector="Ashutosh Gowariker" mreport="Good" msrc="Jodha.jpeg"></Cart>
+    <Cart mname="RRR" mdirector="Sri Salman Khan" mreport="Excellent" msrc="RRR.jpeg" ></Cart>
+    </div>
+{/* <Cart></Cart> */}
 </div>
 
 
@@ -133,9 +138,7 @@ function App(props) {
     // <div className='container' style={{display:"flex"}}>
     // {/* <Component1 name="Ruman" age="25"/> */}
 
-    // <Cart mname="Bhajrangi Bhaijaan" mdirector="Kabir Khan" mreport="Good" msrc="Bhaijan.jpeg"></Cart>
-    // <Cart mname="Jodha Akbar" mdirector="Ashutosh Gowariker" mreport="Good" msrc="Jodha.jpeg"></Cart>
-    // <Cart mname="RRR" mdirector="Sri Rajamouli" mreport="Excellent" msrc="RRR.jpeg" ></Cart>
+    
     // </div>
     
       
