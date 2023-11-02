@@ -34,7 +34,7 @@ function App(props) {
 <div style={{display: 'flex'}}>
 <Cart mname="Bhajrangi Bhaijaan" mdirector="Kabir Khan" mreport="Good" msrc="Bhaijan.jpeg"></Cart>
     <Cart mname="Jodha Akbar" mdirector="Ashutosh Gowariker" mreport="Good" msrc="Jodha.jpeg"></Cart>
-    <Cart mname="RRR" mdirector="Sri Salman Khan" mreport="Excellent" msrc="RRR.jpeg" ></Cart>
+    <Cart mname="RRR" mdirector="Sri Salman Khan Garu" mreport="Excellent" msrc="RRR.jpeg" ></Cart>
     </div>
 {/* <Cart></Cart> */}
 </div>
